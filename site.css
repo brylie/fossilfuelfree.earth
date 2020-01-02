@@ -1,7 +1,30 @@
-html { 
+body { 
     background: url(images/people-holding-banner-2561628.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+
+.box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-align: center;
+       -ms-flex-align: center;
+          align-items: center;
+    -webkit-box-pack: center;
+       -ms-flex-pack: center;
+     justify-content: center;
+}
+
+.box-content {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
