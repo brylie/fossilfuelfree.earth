@@ -7,6 +7,9 @@ body {
     height: 100vh;
     margin: 0;
     position: relative;
+    font-family: 'MontserratRegular', sans-serif;
+   font-weight: normal;
+   font-style: normal;
 }
 
 
@@ -30,6 +33,9 @@ body {
     border-radius: 1em;
 }
 
+.center {
+    text-align: center;
+}
 
 .join-button {
 	box-shadow: 1px 0px 5px 1px #277427;
@@ -38,7 +44,6 @@ body {
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Verdana;
 	font-size:28px;
 	padding:33px 77px;
 	text-decoration:none;
